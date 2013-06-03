@@ -1,0 +1,16 @@
+{
+  "name": "bower-checker",
+  "version": "0.0.1",
+  "description": "Library for checking version before bower install",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": "",
+  "keywords": [
+    "bower",
+    "check"
+  ],
+  "author": "Xiao Han <justlaputa@gmail.com>",
+  "license": "MIT"
+}
