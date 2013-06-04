@@ -14,7 +14,7 @@ How to use
 
 Before using this library, you need to make sure all your bower components decleared in `bower.json` or `component.json` needs to use exactly specified version string, like:
 
-```
+```json
 {
   "dependencies": {
     "bootstrap": "2.3.1",
@@ -33,15 +33,15 @@ range options in [semver](https://github.com/isaacs/node-semver) like `~2.1.1`, 
 ### use in node
 Now if your `bower.json` is good, then just add `bower-checker` in your package's dependencis:
 
-```
-    "devDependencies": {
-      "bower-checker": "0.0.1",
-    }
+```json
+"devDependencies": {
+  "bower-checker": "0.0.1",
+}
 ```
 
 then just call the `install` function to install you project's bower components:
 
-```
+```javascript
 var checker = require('bower-checker');
 
 checker.install(function() {
@@ -54,10 +54,16 @@ It will only install the libraries which have a miss matched version than declar
 ### grunt task
 If you want to use this library in your grunt task, it is easy, just add this in your `Gruntfile.js`:
 
-```
+```javascript
     grunt.registerTask('bower', 'install external libraries by using bower', function() {
         var done = this.async();
 
         require('bower-checker').install(done);
     });
 ```
+
+Issues
+=======
+This repo is only for development, if you meet problems, please fire issues at:
+
+https://github.com/WorksApplications/bower-checker/issues
