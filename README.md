@@ -5,7 +5,7 @@ About
 we can skip the `git clone` network traffic by checking versions before running `bower install`.
 This is what `bower-checker` does.
 
-[![Build Status](https://travis-ci.org/justlaputa/bower-checker.png)](https://travis-ci.org/justlaputa/bower-checker)
+[![Build Status](https://travis-ci.org/WorksApplications/bower-checker.png)](https://travis-ci.org/WorksApplications/bower-checker)
 
 How to use
 =======
