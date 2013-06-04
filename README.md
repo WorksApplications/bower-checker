@@ -31,7 +31,7 @@ Before using this library, you need to make sure all your bower components decle
 range options in [semver](https://github.com/isaacs/node-semver) like `~2.1.1`, `>1.0.0` is not supported by this library.
 
 ### use in node
-Now if your `bower.json` is good, then just add `bower-checker` in your package's dependencis:
+Now if your `bower.json` is good, then just add `bower-checker` in your package's dependencies:
 
 ```json
 "devDependencies": {
