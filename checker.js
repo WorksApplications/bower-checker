@@ -1,5 +1,5 @@
 /**
- * helper script for Grunt bower task
+ * main library, check libraries versions and then run `bower install`
  * this script is used to compare javascript libraries versions
  * installed by bower, and run `bower install` only when necessary
  */
