@@ -12,7 +12,7 @@ How to use
 
 ### bower config
 
-Before using this library, you need to make sure all your bower components decleared in `bower.json` or `component.json` needs to use exactly specified version string, like:
+Before using this library, you need to make sure all your bower components declared in `bower.json` or `component.json` needs to use exactly specified version string, like:
 
 ```json
 {
